@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html> 
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form</title>
+   </head>
+   <body>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="write your name" required size="25"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" value="test@example.com"  required autofocus><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" maxlength="6" required><br><br>
+
+        <label for="ctry">Category:</label>
+        <select id="Category" required>
+            <option>student</option>
+            <option>employee</option> 
+            <option selected>freelancer</option>
+               </select><br><br>
+
+               <label for="eventdate">Event date:</label>
+               <input type="date" name="Startdate" required><br><br>
+
+               <input type = "radio" name = "subject" value = "1 ticket" required> 1 ticket
+               <input type = "radio" name = "subject" value = "2 ticket"  checked required> 2 ticket
+               <input type = "radio" name = "subject" value = "3 ticket"  required> 3 ticket
+<br><br>
+               <input type="checkbox" name="online" value="payment" required>Online payment
+<br><br>
+
+<label for="notes">Notes:</label>
+<input type="text area" id="notes" name="notes" placeholder="Write something here......." required>
+<input type="submit" value="Submit"><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+      </form>
+   </body>
+</html>
